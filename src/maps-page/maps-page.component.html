@@ -1,0 +1,21 @@
+<div class="side-bar">
+  <!-- THE MAIN BUTTONS -->
+  <button routerLink="/maps">
+    <span class="material-icons"> explore </span>
+  </button>
+  <button routerLink="/schools">
+    <span class="material-icons"> school </span>
+  </button>
+  <button routerLink="/jobs"><span class="material-icons"> work </span></button>
+
+  <router-outlet></router-outlet>
+</div>
+
+<div id="map"></div>
+<div class="profile-pic">
+  <img
+    routerLink="/profile"
+    src="https://t3.ftcdn.net/jpg/00/64/67/52/240_F_64675209_7ve2XQANuzuHjMZXP3aIYIpsDKEbF5dD.jpg"
+    alt="profile pic"
+  />
+</div>

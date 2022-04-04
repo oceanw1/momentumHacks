@@ -1,0 +1,41 @@
+.location-info {
+  height: 500px;
+  width: 250px;
+  background-color: #d4a5a5;
+
+  padding: 20px;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    h1 {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      font-size: 25px;
+    }
+  }
+
+  .location-inside {
+    font-size: 15px;
+    padding: 20px 0;
+
+    .location-info-item {
+      padding: 10px 0;
+    }
+    .description {
+      margin-top: 20px;
+    }
+  }
+}
+
+.backButton {
+  button {
+    position: absolute;
+    bottom: 200px;
+    left: 10px;
+  }
+}

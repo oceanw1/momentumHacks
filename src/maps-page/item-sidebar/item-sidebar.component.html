@@ -1,0 +1,19 @@
+<div class="location-info">
+  <div class="logo">
+    <img src="{{ locations[locationId].logo }}" alt="" style="height: 90px" />
+  </div>
+  <div class="title">
+    <h1>{{ locations[locationId].name }}</h1>
+  </div>
+  <div class="location-inside">
+    <h2 class="location-info-item">{{ locations[locationId].pay }}</h2>
+    <h2 class="location-info-item">{{ locations[locationId].time }}</h2>
+    <h2 class="location-info-item">{{ locations[locationId].address }}</h2>
+    <h2 class="location-info-item">{{ locations[locationId].contact }}</h2>
+    <h3 class="description">{{ locations[locationId].description }}</h3>
+  </div>
+</div>
+
+<div class="backButton" (click)="backToStart()">
+  <button>Back</button>
+</div>

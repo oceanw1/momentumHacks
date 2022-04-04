@@ -1,0 +1,169 @@
+.main-container {
+  background-color: #d4a5a5;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+h1 {
+  font-size: 80px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.information {
+  padding: 25px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-section {
+  height: 200px;
+  display: block;
+  justify-content: center;
+}
+
+.info-header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.stats {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: white;
+  border: solid black 5px;
+  border-radius: 20px;
+  padding: 60px;
+  width: 600px;
+
+  transform: translateY(6px);
+  height: 20px;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.list-of-items {
+  margin: 20px;
+}
+
+.list {
+  font-size: medium;
+  text-align: center;
+}
+
+.school-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.school {
+  font-size: 20px;
+  background-color: white;
+  border: solid pink 5px;
+  border-radius: 20px;
+  padding: 30px;
+  width: 900px;
+  transform: translateY(6px);
+  height: 25px;
+  margin: 5px 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: "Source Sans Pro", sans-serif;
+// }
+
+// body {
+//   width: 100%;
+//   height: 100vh;
+//   background: rgb(240, 239, 243);
+//   margin: auto;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+.container {
+  width: 600px;
+  height: 520px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+  padding: 25px 15px;
+  overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container form {
+  width: 100%;
+  border: 1px solid rgb(82, 74, 235);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container form input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: none;
+  padding: 8px 10px;
+}
+
+.container form i {
+  padding-left: 10px;
+}
+
+.school {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 15px;
+}
+
+.school img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.school .s-details h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.school .s-details h4 {
+  font-size: 15px;
+  color: black;
+}
+
+.school .s-details {
+  padding-left: 15px;
+}
+
+.school-list {
+  padding: 20px 0;
+}
+.buttonsss {
+  margin-top: 20px;
+  margin-left: 20px;
+}

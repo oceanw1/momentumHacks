@@ -1,0 +1,44 @@
+.nearby-dinge {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 10px;
+  border: 4px solid white;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 0px 20px;
+  h1 {
+    padding: 0;
+    margin: 10px 0px;
+    font-size: 30px;
+  }
+
+  li {
+    margin: 0px 0;
+    padding-left: 0;
+    font-size: 20px;
+  }
+  ol {
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    display: flex;
+    width: 70px;
+    height: auto;
+  }
+
+  .nearby-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    h2 {
+      font-size: 20px;
+      width: 110px;
+    }
+    &:hover {
+      color: blue;
+      transition: 0.3s;
+    }
+  }
+}
