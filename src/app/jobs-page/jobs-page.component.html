@@ -1,0 +1,84 @@
+<div class="buttonsss">
+  <button routerLink="/maps">
+    <span class="material-icons"> explore </span>
+  </button>
+  <button routerLink="/schools">
+    <span class="material-icons"> school </span>
+  </button>
+  <button routerLink="/jobs"><span class="material-icons"> work </span></button>
+</div>
+
+<h1>Jobs Page</h1>
+<div class="information">
+  <body class="searchbar" style="background-color: #d4a5a5">
+    <div class="info-section">
+      <div class="info-header"></div>
+      <div class="stats">
+        <p>
+          Common Salaries: $ - $1900-$2500
+          <br />
+          It's ratings:
+          <span class="material-icons"> ☆ </span>
+          -
+          <span class="material-icons"> ☆ </span>
+          <span class="material-icons"> ☆ </span>
+          <span class="material-icons"> ☆ </span>
+          <span class="material-icons"> ☆ </span>
+          <br />
+          Common City: Jakarta
+        </p>
+      </div>
+    </div>
+    <div class="list">Here are the available jobs in Jakarta</div>
+    <br />
+    <br />
+
+    <section class="container">
+      <form>
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          name=""
+          id="search-item"
+          placeholder="Search Jobs"
+          onkeyup="search()"
+        />
+      </form>
+
+      <div class="jobs-list" id="jobs-list">
+        <div class="jobs">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPcAAADMCAMAAACY78UPAAAAflBMVEX///8AAAD29vb8/Pz4+Pjb29vm5uby8vJvb2+ysrLu7u6FhYXp6enU1NShoaHh4eFBQUGamppSUlK9vb1xcXGsrKxlZWVKSkp8fHzLy8uQkJA4ODgzMzMQEBCurq7Dw8OVlZW5ubkbGxtXV1clJSVfX18hISGCgoIqKioXFxfVWTGCAAAE1ElEQVR4nO2d21rqQAxGO5RTBYrFcvQAqKj7/V9wg6j0EAufTpK/NuumN/qZZUsnk8kMQbCntSd7bWeuYcU1vODarrgGmWur6tr2GNgxgMAwDMMwDMMwDMMwDMMwDMMwDMMwDCXCkXYECoynE+fG2lEI05reugM32oGI0kndB7F2KIJ0Ju6LqXYwYvT6LkOkHY4Ukcux1o5HiH5e23W0AxKhdVfQdo1ouLm6L2rfaYckQbto7VyqHZMEj2XvJrzOZ2Vt19MOip8HQnuuHRQ/V4R2E7I16il3be2o2BlR2g14m19T3n8/WetQ2jvtqPghP91D7ajY6VHaA+2o+JlS3tpBCUC91f7+S418zJtQWFuXtWfaMUkwKGk3IDEPiI93I8oNQVDUvg61IxJhWNCeaAckxDKvvdCOR4p8ybw5K2JJdvxqQGXpk9Mw9pRd7+6NomSVLtJBMh3V8r/RWsbp/Fgav5sNopLE4ii9i08TsPG0OENLoyvZqH9JL564Ii/9qJv5kWSx2S5PCyPhOi39xnF428qH/0NG5MT6wONiTVXPwnVxhSxHIm7wE8blW51jnuT7V7oPT9W/4GpRYi2n3ZT7at1tBWGrEy1eLvl5d9s9/5c16TxfpPEDoBePtlzWDjqjWzFq78d5bb3veGXV3g9p2oI0F73R/p54zK4NKU6UyxiAq8CRK7oMoK0r3Ap5g9Uek/MRewFskbgrpI02Qzk/s/AC2nKKzLscTjt4a6b2TTO1g1JfLQd40zGyK8k3gMsplbUxX+A1tRENxf4B3FIWnY/614Clae/sBLwBl4glHnO8IUwmV9N2pOCvLkHebokcFXF7kcDHG662dIDsKfYLZC+EwOiNl6oFjS2a0z3kXnnVViRhW//84kFbkYRd2y21FUn4vSFX/IvdlgxAdnON+b21FUkE0hZtRRKB2pq2IomAN+KspNhNzQHkRjqB+w1YUmzudEzAe6PtSCEwfkNuEJZoa9F2JBHwhjyFTsC7qeXUW21HCv56C+aDzt2LewCtV+8AdeCOdwArqgIJunMrbcsyMn2pgDUXEe++tmUZke4WwKKqRLu9A+x4EOniApydhDLeeNmqUC8y3GGyQh9wuIKTVM89nPhlO1t9gPWo8+6OzAGVsArUFr+4RpqTlg445mSBk6tvJL2dS5cgyZvcG/0DbeFP5rLaMF3ZW1lvnOFM1lvb9oRAU/IJoEFcahf0O0gNThJl9A+gjrcQzNmwSk5iQxnYqpFIHf0AWvvDmdOofPGs7VlEqL6IdruFPuFv2pZlRF7pOCnqCYGVE7BTTI4IJG1I1ZYT7PUHmAlonpC74ARSZynBfMAF7umSrHvBMTeSvUN+NYcvMF9qRxi3TaKdzZSHLU0HfsoPtLi80Q+IZjr3AG8+UoSlgxFzc2wehokZZF5epO09bbuH3EtVwvumUcitVASeay/1+ZIqr+L10fYqXiftIOj+q3J5TuPluNfuDUfbVXWG94yerxQJv/WZTwvvqc7q29N2+6hT7grIrQgvMXkDuwl5QEZ9vsMjS7tUaexXLG6NN0X1QQ1v9pFhtrdtFp3zGD7Mvr4O/DqurfU7nXjxNNkNpqMLNa6WUZJEy3pkaIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGML8B+VKR1i4bJTKAAAAAElFTkSuQmCC"
+            alt=""
+          />
+          <div class="j-details">
+            <a href="https://www.apple.com"><h2>Apple Shop</h2></a>
+          </div>
+        </div>
+        <div class="jobs">
+          <img
+            src="https://pbs.twimg.com/profile_images/1402010854694920193/r4WvBWHm.jpg"
+            alt=""
+          />
+          <div class="j-details">
+            <a href="https://support.microsoft.com"
+              ><h2>Microsoft Support</h2></a
+            >
+          </div>
+        </div>
+        <div class="jobs">
+          <img
+            src="https://www.bukalapak.com/images/logo-google-graph.png"
+            alt=""
+          />
+          <div class="j-details">
+            <a
+              href="https://www.bukalapak.com/bantuan/tentang-bukalapak1/hubungi-bukalapak1/cara-hubungi-buka-bantuan"
+              ><h2>Bukalapak</h2></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</div>
