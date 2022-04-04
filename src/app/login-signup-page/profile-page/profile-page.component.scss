@@ -1,0 +1,39 @@
+body {
+  background-color: #d4a5a5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: whitesmoke;
+  margin: 5% auto;
+  width: 50%;
+  height: 50%;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.back {
+  text-decoration: none;
+  color: black;
+  margin: 10px 0px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+}
+
+.left img {
+  border-radius: 180px;
+  width: 60%;
+}
+
+.right {
+  padding-left: 20px;
+}

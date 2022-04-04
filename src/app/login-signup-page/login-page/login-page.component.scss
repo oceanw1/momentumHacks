@@ -1,0 +1,29 @@
+* {
+  // background-color: #d4a5a5;
+}
+.container {
+  background-color: white;
+  margin: 5% auto;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  margin: 12.5px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-btn {
+  font-size: 1.2rem;
+  height: 40px;
+  background-color: #faea07;
+  border-radius: 10px;
+}

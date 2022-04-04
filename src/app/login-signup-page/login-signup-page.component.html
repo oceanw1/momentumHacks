@@ -1,0 +1,64 @@
+<div class="container">
+  <h2>Signup</h2>
+  <form action="" class="signup-form">
+    <label for="name">Name</label>
+    <input
+      class="form-input"
+      id="name"
+      type="text"
+      placeholder="Insert your name..."
+    />
+    <label for="email">Email</label>
+    <input
+      class="form-input"
+      id="email"
+      type="email"
+      placeholder="Insert your email..."
+    />
+    <label for="pw">Password</label>
+    <input
+      class="form-input"
+      id="pw"
+      type="password"
+      placeholder="Insert your password..."
+    />
+    <label for="address">Address</label>
+    <input
+      class="form-input"
+      id="address"
+      type="text"
+      placeholder="Insert your address..."
+    />
+    <label for="city">City</label>
+    <input
+      class="form-input"
+      id="city"
+      type="text"
+      placeholder="Insert your city..."
+    />
+    <label for="job">Job</label>
+    <input
+      class="form-input"
+      id="job"
+      type="text"
+      placeholder="Insert your job..."
+    />
+    <label for="field">Choose a field of interest:</label>
+    <select style="margin: 10px 0px" name="field" id="field">
+      <option value="Computer-Science">Computer-Science</option>
+      <option value="Finance">Finance</option>
+      <option value="Healthcare">Healthcare</option>
+      <option value="Security">Security</option>
+      <option value="Business">Business</option>
+      <option value="Marketing">Marketing</option>
+    </select>
+    <button id="form-btn" class="form-btn">
+      <a style="text-decoration: none; color: black" routerLink="/profile"
+        >Signup</a
+      >
+    </button>
+  </form>
+  <p style="text-align: center">
+    Have an account already? <a routerLink="/login">Login</a>
+  </p>
+</div>
